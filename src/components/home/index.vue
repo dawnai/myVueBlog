@@ -96,7 +96,7 @@
                         </el-col>
                     </el-row>
                 </div>
-                <div style="height: 600px; border: 1px solid red;background-color: #f2f2f2; padding: 50px 50px;">
+                <div style="height: 600px; background-color: #f2f2f2; padding: 50px 50px;">
                     <el-row>
                         <el-col :span="12">
                         <h4 style="font-style: italic;">some information</h4>
