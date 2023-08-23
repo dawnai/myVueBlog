@@ -86,8 +86,9 @@
                         </el-col>
                         <el-col :span="12">
                             <el-card class="myWelcome">
-                                <h1 style="font-size: 6vw;">Welcom to</h1>
-                                <h1 style="font-size: 6vw;">DAWN's Home</h1>
+                                <h1 style="font-size: calc(520% + 10px);">Welcom to</h1>
+                                <h1 style="font-size: calc(520% + 10px);">DAWN's </h1>
+                                <h1 style="font-size: calc(520% + 10px);">Home </h1>
                                 <h2>--------------</h2>
                                 <h3>嗨，你好呀</h3>
                                 <h3 style="display: inline-block;">欢迎来到我的个人网站！</h3>
