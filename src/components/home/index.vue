@@ -79,7 +79,7 @@
             </el-header>
             <!-- 网站的内容区域 -->
             <el-main>
-                <div class="myIntroduce" style="margin-top: 50px">
+                <div class="myIntroduce" style="margin-top: 50px;margin-bottom: 20px;">
                     <el-row>
                         <el-col :span="12">
                             <mylottie></mylottie>
@@ -92,53 +92,78 @@
                                 <h2>--------------</h2>
                                 <h3>嗨，你好呀</h3>
                                 <h3 style="display: inline-block;">欢迎来到我的个人网站！</h3>
-                                
+
                             </el-card>
                         </el-col>
                     </el-row>
                 </div>
-                <div style="height: 600px; background-color: #f2f2f2; padding: 50px 50px;">
+                <div style=" background-color: #f2f2f2; padding: 50px 50px;">
                     <el-row>
                         <el-col :span="12">
-                        <h4 style="font-style: italic;">some information</h4>
-                        <h1 style="font-size: 3vw; margin: 10px 0px; color: #002FA7;">简单介绍一下我的网站</h1>
-                        <h1 style="font-size: 2.5vw;">Introduction to the website</h1>
-                        <p class="myWebIntrooduce">
-                            蒙您光顾抵临吾之网络之府。此地乃我与友共享心得、见解之所在。愿以此以传道、叙述吾之所思所感
-                        </p>
-                    </el-col>
-                    <el-col :span="12">1</el-col>
-                </el-row>
-            </div>
-        </el-main>
+                            <h1 style="font-size: 3vw; margin: 10px 0px; color: #002FA7;">简单介绍一下我的网站</h1>
+                            <h1 style="font-size: 2.5vw;">Introduction to the website</h1>
+                            <p class="myWebIntrooduce">
+                                我建立这个网站的目的是分享生活。我希望通过这个平台，能够与您分享我的经验、见解以及我所深爱的艺术。
+                            </p>
+                            <p class="myWebIntrooduce">无论您是新手还是专家，我都希望我的内容能够对您有所启发和帮助</p>
+                            <p class="myWebIntrooduceEnglish">The purpose of establishing this website is to share life. I
+                                hope to share my experience, insights, and beloved art with you through this platform.
+                                Whether you are a novice or an expert, I hope my content can inspire and help you</p>
+                            <p style="margin-top: 20px;" class="myWebIntrooduce">
+                                在这个网站上，您将找到关于AI的文章、教程、作品展示等。我尽力使内容有足够的深度，同时也保持易于理解。我希望这些内容能够为您提供新的视角</p>
+                            <p class="myWebIntrooduceEnglish">On this website, you will find articles, tutorials, work
+                                displays, and more about AI. I try my best to make the content deep enough while also
+                                keeping it easy to understand. I hope these contents can provide you with a new perspective
+                            </p>
+                            <p class="myWebIntrooduce" style="margin-top: 20px;"> <a href="www.bilibili.com" style="text-decoration: none;color:#002FA7 ;">去看看我的文章     <svg t="1692842691541" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6299" width="25" height="25"><path d="M620.8 179.2c12.8 12.8 6.4 32-6.4 44.8-19.2 6.4-38.4 6.4-44.8-12.8-44.8-70.4-128-115.2-217.6-115.2-140.8 0-256 115.2-256 256 0 89.6 44.8 166.4 115.2 217.6 19.2 6.4 19.2 25.6 12.8 38.4-12.8 19.2-32 19.2-44.8 12.8C89.6 563.2 32 460.8 32 352c0-179.2 140.8-320 320-320 108.8 0 211.2 57.6 268.8 147.2zM326.4 332.8l243.2 601.6 83.2-243.2c6.4-19.2 19.2-32 38.4-38.4L934.4 576 326.4 332.8z m25.6-57.6L960 518.4c32 12.8 51.2 51.2 38.4 83.2-6.4 19.2-19.2 32-38.4 38.4l-243.2 83.2L633.6 960c-12.8 32-44.8 51.2-83.2 38.4-19.2-6.4-32-19.2-38.4-38.4L268.8 358.4c-12.8-32 6.4-70.4 38.4-83.2 12.8-6.4 32-6.4 44.8 0z" fill="#002FA7" p-id="6300"></path></svg></a></p>
+                            
+                            
+                            
+                        </el-col>
+                        <el-col :span="12" style="padding: 10px 10px;">
+                            <el-card style="border-radius: 20px;">
+                                <catlottie/>
+                            </el-card>
+                            <p></p>
 
-        <!-- 网站的底部 -->
-        <el-footer>1</el-footer>
-    </el-container>
-</div></template>
+                        </el-col>
+                    </el-row>
+                </div>
+            </el-main>
+
+            <!-- 网站的底部 -->
+            <el-footer>1</el-footer>
+        </el-container>
+    </div>
+</template>
 
 <script>
 import mylottie from "./mylottie";
+import catlottie from './catlottie'
 export default {
     name: "home",
     components: {
         mylottie,
+        catlottie
     },
 };
 </script>
 
-<style scoped>/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+<style scoped>
+/* 在线链接服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
 @font-face {
     font-family: "阿里妈妈灵动体 VF Thin";
     src: url("../../assets/font/AlimamaAgileVF-Thin.woff2") format("woff2"),
         url("../../assets/font/AlimamaAgileVF-Thin.woff") format("woff");
     font-display: swap;
 }
+
 @font-face {
     font-family: "old";
     src: url("../../assets/font/oold.ttf") format("truetype");
     font-display: swap;
 }
+
 h1 {
     font-weight: bolder;
     font-family: "阿里妈妈灵动体 VF Thin";
@@ -182,8 +207,25 @@ h1 {
     box-shadow: 29px 29px 69px #afafb6,
         -29px -29px 69px #e3e3ec;
 }
-.myWebIntrooduce{
-    font-size: 100px;
-    font-family: "old";
+
+.myWebIntrooduce {
+    font-family: "阿里妈妈灵动体 VF Thin";
+    font-weight: bold;
+    color: #202020;
 }
+
+.myWebIntrooduceEnglish {
+    color: #202020;
+    font-size: small;
+}
+.myA{
+text-decoration: none;
+font-family: 阿里妈妈灵动体 VF Thin;
+font-weight: bolder;
+font-size: larger;
+}
+p {
+    margin: 10px 0px;
+}
+
 </style>
