@@ -168,12 +168,6 @@ h4 {
     font-size: small;
 }
 
-.myA {
-    text-decoration: none;
-    font-family: 阿里妈妈灵动体 VF Thin;
-    font-weight: bolder;
-    font-size: larger;
-}
 
 p {
     margin: 10px 0px;
