@@ -132,11 +132,6 @@ export default {
     font-display: swap;
 }
 
-@font-face {
-    font-family: "old";
-    src: url("../../assets/font/oold.ttf") format("truetype");
-    font-display: swap;
-}
 
 h1 {
     font-weight: bolder;

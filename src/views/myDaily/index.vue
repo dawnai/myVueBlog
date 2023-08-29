@@ -138,13 +138,11 @@ export default {
     url("../../assets/font/AlimamaAgileVF-Thin.woff") format("woff");
   font-display: swap;
 }
-
 @font-face {
   font-family: "old";
-  src: url("~@/assets/font/oold.ttf") format("truetype");
+  src: url("../../assets/font/oold.ttf") format("truetype");
   font-display: swap;
 }
-
 .radio {
   font-family: '阿里妈妈灵动体 VF Thin';
   font-size: larger;
