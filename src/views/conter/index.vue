@@ -118,25 +118,27 @@
             </el-row>
             <el-row>
                 <el-col :span="24">
-                    
-                    <el-carousel :interval="4000" height="400px">
+
+                    <el-carousel :interval="4000" height="70vh">
                         <!-- 大海 -->
                         <el-carousel-item style="background-color: white;">
-                            <el-row  style="height:400px">
+                            <el-row style="height:70vh">
 
                                 <el-col :span="18">
-                                    <img src="@/assets/imgs/woter.jpg" alt="" style="height: 100%;width: 100%;" >
+                                    <img src="@/assets/imgs/woter.jpg" alt="" style="height: 100%;width: 100%;">
                                 </el-col>
                                 <el-col :span="6" style="display: flex;align-items: center;height: 100%;">
-                                    <div style="width: 200%;background-color: white;height: 300px;margin-left: -90%;padding: 20px 20px;">
-                                        
+                                    <div
+                                        style="width: 200%;background-color: white;height: 300px;margin-left: -90%;padding: 20px 20px;">
+
                                         <p class="myPome">今天，是和你的第一次约会，为了这次相聚，我精心打扮了自己</p>
                                         <p class="myPome">可真正站在你的面前，我却像个傻孩子</p>
                                         <p class="myPome">为了这次相聚，我精心打扮了自己</p>
                                         <p class="myPome">笨拙地感受着你温柔的波涛，局促地抚摸着你水粼的肌肤，懵懂地亲吻着你的秀发</p>
                                         <p class="myPome">来自大山的我用贪婪地眼光看着你，生怕漏掉了哪怕一丝美丽</p>
                                         <p class="myPome">这一刻的我，只想躺在你的温柔乡里，安静地听你诉说那蓝色夜晚的回忆</p>
-                                        <p class="myPome">亲爱的姑娘啊，毕竟这<span style="color: #002FA7;">1642</span>公里，我走了整整<span style="color: #002FA7;">24</span>年</p>
+                                        <p class="myPome">亲爱的姑娘啊，毕竟这<span style="color: #002FA7;">1642</span>公里，我走了整整<span
+                                                style="color: #002FA7;">24</span>年</p>
                                         <p class="myPome">--------------写给那位名为海的姑娘</p>
                                         <p style="font-family: 'old';font-size: medium;">写于贰零贰贰年捌月贰拾玖日</p>
                                     </div>
@@ -145,28 +147,67 @@
                         </el-carousel-item>
                         <!-- 小王子 -->
                         <el-carousel-item style="background-color: white;">
-                            <el-row  style="height:400px">
+                            <el-row style="height:70vh">
 
                                 <el-col :span="18">
-                                    <img src="@/assets/imgs/小王子.jpg" alt="" style="height: 100%;width: 100%;" >
+                                    <img src="@/assets/imgs/小王子.jpg" alt="" style="height: 100%;width: 100%;">
                                 </el-col>
                                 <el-col :span="6" style="display: flex;align-items: center;height: 100%;">
-                                    <div style="width: 200%;background-color: white;height: 300px;margin-left: -90%;padding: 20px 20px;">
-                                        
+                                    <div
+                                        style="width: 200%;background-color: white;height: 300px;margin-left: -90%;padding: 20px 20px;">
+
                                         <p class="myPome">也许世界上也有五千朵和你一模一样的花，但只有你是我独一无二的玫瑰</p>
                                         <p class="myPome">小王子遇到一座玫瑰花园，里面生长着成千上万朵玫瑰花，他才知道他的玫瑰花并不是唯一的，于是他伤心地哭了</p>
                                         <p class="myPome">这时狐狸告诉他一个有关“驯服”的哲理：对我来说，你还只是一个小男孩，就像其他千万个小男孩一样。我不需要你。你也同样用不着我</p>
                                         <p class="myPome">对你来说，我也不过是一只狐狸，和其他千万只狐狸一样。但是，如果你驯服了我，我们就互相不可缺少了</p>
                                         <p class="myPome">对我来说，你就是世界上唯一的了；我对你来说，也是世界上唯一的了</p>
-                                        <p class="myPome" style="color: #22c358;">正因为你为你的玫瑰花费了时间，这才使你的玫瑰变得如此重要</p>
+                                        <p class="myPome" style="color: #d87a85;">正因为你为你的玫瑰花费了时间，这才使你的玫瑰变得如此重要</p>
 
-                                        
+
+                                    </div>
+                                </el-col>
+                            </el-row>
+                        </el-carousel-item>
+                        <!-- 树叶 -->
+                        <el-carousel-item style="background-color: white;">
+                            <el-row style="height:70vh">
+
+                                <el-col :span="18">
+                                    <img src="@/assets/imgs/green.jpg" alt="" style="height: 100%;width: 100%;">
+                                </el-col>
+                                <el-col :span="6" style="display: flex;align-items: center;height: 100%;">
+                                    <div
+                                        style="width: 200%;background-color: white;height: 300px;margin-left: -90%;padding: 20px 20px;display: flex;flex-wrap:wrap;align-items: center;justify-content: center;">
+
+                                        <p class="myPome">当春天的微风轻抚绿叶，
+                                            那是大地复苏的季节。
+                                            翠绿的叶片闪烁着希望，
+                                            生命的奇迹在每一片中演绎。</p>
+                                        <p class="myPome">夏日的阳光洒在叶面，
+                                            绿叶似火热情洋溢。
+                                            在树荫下，清凉一片，
+                                            绿叶是大自然的庇护。</p>
+                                        <p class="myPome">秋风吹来，叶片纷纷坠落，
+                                            色彩斑斓如梦中画。
+                                            枫叶红艳，橙黄交错，
+                                            绿叶告别，展示新的风采。</p>
+                                        <p class="myPome">冬季的寒冷，叶片干枯，
+                                            但绿叶的精神永不凋谢。
+                                            它们沐浴阳光、吸收雨露，
+                                            等待春回大地再次焕发生机。</p>
+                                        <p class="myPome">绿叶是大自然的诗篇，
+                                            诉说着岁月的变迁。
+                                            无论四季如何更迭，
+                                            绿叶永远是生命的旋律。</p>
+                                        <p class="myPome" style="color: #22c358;">我是一个开发的人工智能助手，没有具体的姓名</p>
+
+
                                     </div>
                                 </el-col>
                             </el-row>
                         </el-carousel-item>
                     </el-carousel>
-                    
+
 
                 </el-col>
             </el-row>
@@ -245,8 +286,10 @@ p {
 .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
 }
-.myPome{
-    font-family:'old';
-    font-size: large
+
+.myPome {
+    font-family: 'old';
+    font-size: large;
+    margin: 5px;
 }
 </style>
