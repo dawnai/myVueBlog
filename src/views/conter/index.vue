@@ -47,7 +47,7 @@
           </p>
           <p class="myWebIntrooduce" style="margin-top: 20px">
             <a
-              href="https://www.bilibili.com"
+              href=""
               style="text-decoration: none; color: #002fa7"
               >去看看我的文章
               <svg
@@ -118,23 +118,12 @@
         justify="center"
         style="margin-top: 30px"
         :gutter="30"
-      >
-        <el-col :span="7">
-          <img
-            src="../../assets/dc7b9bab75eb5c1347536417d7b5a5e.jpg"
-            alt=""
-            style="width: 100%; height: 75%"
-          />
-          <h5 style="margin: 10px 0px; color: rgb(59, 59, 59)">CAMERA</h5>
-          <h3>华南农业大学的牛牛</h3>
-          <h5>_______</h5>
-          <h5 style="font-style: italic; margin-top: 10px">by Web</h5>
-        </el-col>
+      > 
         <el-col :span="7">
           <img
             src="../../assets/6fb5314fa7ab822b04926d3d03a01e8.jpg"
             alt=""
-            style="width: 100%; height: 75%"
+            style="width: 100%; height: auto"
           />
           <h5 style="margin: 10px 0px; color: rgb(59, 59, 59)">PEOPLE</h5>
           <a
@@ -169,12 +158,47 @@
           <img
             src="../../assets/f1affa5852406db49844164e1d1381d.jpg"
             alt=""
-            style="width: 100%; height: 75%"
+            style="width: 100%; height: auto"
           />
           <h5 style="margin: 10px 0px; color: rgb(59, 59, 59)">PEOPLE</h5>
           <h3>很cool的车车</h3>
           <h5>_______</h5>
           <h5 style="font-style: italic; margin-top: 10px">by NoName</h5>
+        </el-col>
+        <el-col :span="7">
+          <img
+            src="@/assets/imgs/九龄.png"
+            alt=""
+            style="width: 100%; height: auto;"
+          />
+          <h5 style="margin: 10px 0px; color: rgb(59, 59, 59)">PEOPLE</h5>
+          <a
+            href="https://space.bilibili.com/51588985"
+            style="color: black; text-decoration: none"
+          >
+            <h3>
+              B站up:是一只九龄
+              <svg
+                t="1692949855247"
+                class="icon"
+                viewBox="0 0 1024 1024"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                p-id="3799"
+                width="32"
+                height="32"
+              >
+                <path
+                  d="M455.68 404.032l91.264 529.152c0 0 67.456-69.44 123.136-117.888l122.432 163.904c4.928 6.656 15.68 7.104 23.872 1.088l52.288-38.208c8.256-6.016 10.944-16.32 5.952-22.976l-119.104-159.424c62.208-25.088 164.672-53.632 164.672-53.632L455.68 404.032zM308.352 648.384l-135.872 99.328c-20.544 15.04-24.256 43.968-8 65.408 16.256 21.376 46.272 27.008 66.752 12.032l135.872-99.328c20.992-15.36 24.512-45.504 8.256-66.88C359.168 637.504 329.344 633.024 308.352 648.384zM949.696 238.976c-16.256-21.376-45.632-26.176-67.072-10.496l-134.912 98.688c-21.44 15.68-25.152 44.672-8.896 66.048 16.256 21.376 46.272 27.008 67.712 11.328l134.912-98.688C962.88 290.176 965.952 260.352 949.696 238.976zM319.296 136.832c-15.936-20.928-45.248-25.728-66.752-10.048-20.096 14.72-24.256 43.968-8.32 64.896l105.536 138.816c15.936 20.992 45.696 25.408 65.792 10.688 21.44-15.68 25.216-44.608 9.28-65.6L319.296 136.832zM585.792 301.76c26.176 4.224 50.24-13.376 53.632-39.232l21.184-167.808c3.392-25.792-14.976-49.984-41.536-54.656-26.176-4.224-50.24 13.376-53.632 39.168l-21.248 167.872C540.928 272.96 559.296 297.088 585.792 301.76zM329.728 489.024c2.56-25.92-15.808-50.048-41.536-54.656l-170.048-27.968c-27.072-3.584-50.688 13.696-53.632 39.232-3.904 26.944 14.464 51.072 41.536 54.656l170.048 27.968C301.824 532.736 325.504 515.456 329.728 489.024z"
+                  fill="#272636"
+                  p-id="3800"
+                ></path>
+              </svg>
+            </h3>
+          </a>
+
+          <h5>_______</h5>
+          <h5 style="font-style: italic; margin-top: 10px">by Bilibili</h5>
         </el-col>
       </el-row>
     </div>
@@ -339,8 +363,8 @@
               </el-row>
             </el-carousel-item>
             <!-- 铃芽 -->
-            <el-carousel-item style="background-color: white">
-              <el-row style="height: 70vh">
+            <el-carousel-item style="background-color: white; overflow: hidden;">
+              <el-row style="height: 70vh;">
                 <el-col :span="18">
                   <img
                     src="@/assets/imgs/铃芽.jpg"
@@ -370,9 +394,6 @@
                     </p>
                     <p class="myPome">
                       画面还是那么精美漂亮，人物塑造方面也中规中矩，虽然没有初见《君名》那样惊艳，也没有《秒五》那样刻苦铭心，我仍然觉得这是一部好作品
-                    </p>
-                    <p class="myPome">
-                     这次看完，没有以前那种怅然若失的感觉，因为以前看完新海诚的作品，总会不由自主感叹一句：“咱们何时才能做出这样的动画啊”。可这次没有，因为在画面张力上咱们有了《深海》，在故事和人物塑造上咱们有了《魔童》
                     </p>
                     <p class="myPome">
                         铃芽究竟在寻找什么呢？虽然看到一半就知道故事的大致走向，可有一点还是不太明白，那只猫咪“大臣”，真的就只是一块用于镇压的“要石”吗？观影过程中我一直猜测猫咪其实是铃芽的妈妈，妈妈是因为镇压地龙而成为“要石”……
