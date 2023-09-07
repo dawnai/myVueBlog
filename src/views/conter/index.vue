@@ -284,6 +284,11 @@
                       height: 300px;
                       margin-left: -90%;
                       padding: 20px 20px;
+                      display: flex;
+                      flex-wrap: wrap;
+                      align-items: center;
+                      justify-content: center;
+
                     "
                   >
                     <p class="myPome">
@@ -486,6 +491,5 @@ p {
 .myPome {
   font-family: "old";
   font-size: large;
-  margin: 5px;
 }
 </style>

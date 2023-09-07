@@ -1,6 +1,7 @@
 <template>
-    <div>
-        我是AI
+    <div style="margin: 30px;">
+        <h1>这个模块正在开发当中</h1>
+        <h1>打算做一些人工智能知识的整理</h1>
     </div>
 </template>
 

@@ -77,9 +77,15 @@
                             <el-row>
                                 <el-col :span="8">
                                     <h1 style="font-size: 20px;">链接</h1>
-                                    <h4>代码仓库</h4>
-                                    <h4>灵感来源</h4>
-                                    <h4>动画仓库</h4>
+                                    <h4>
+                                        <a href="https://gitee.com/dawnai/my-vue-blog.git"  style="text-decoration: none; color: aliceblue;">代码仓库</a>
+                                    </h4>
+                                    <h4>
+                                        <a href="https://uiverse.io/buttons"  style="text-decoration: none; color: aliceblue;">灵感来源</a>
+                                    </h4>
+                                    <h4>
+                                        <a href="https://lottiefiles.com/"  style="text-decoration: none; color: aliceblue;">动画仓库</a>
+                                    </h4>
 
                                 </el-col>
                                 <el-col :span="8">
