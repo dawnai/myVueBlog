@@ -19,7 +19,7 @@
                             small animations are implemented using Lottie technology, and resources are sourced from here
                         </p>
                         <p style="margin-top: 20px" class="myWebIntrooduce">
-                            至于服务器的后端以及域名问题，我才用腾讯云服务的静态网站托管解决。选择静态网站托管的原因主要有两点，一是价格便宜，一天只需1分钱，二是提供了测试域名，让国内的朋友可以快速访问。
+                            至于服务器的后端以及域名问题，我采用腾讯云服务的静态网站托管解决。选择静态网站托管的原因主要有两点，一是价格便宜，一天只需1分钱，二是提供了测试域名，让国内的朋友可以快速访问。
                         </p>
                         <p class="myWebIntrooduceEnglish" style="margin-top: 10px;">
                             As for the server's backend and domain issues, I've opted for Tencent Cloud's static website
