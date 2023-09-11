@@ -42,6 +42,10 @@
                 </el-row>
             </div>
         </div>
+        <!-- 展示各个资源网站 -->
+        <div  style="margin-top: 40px;">
+            <el-card></el-card>
+        </div>
     </div>
 </template>
 
