@@ -270,6 +270,13 @@ export default {
           contents:
             "Replicate里面有很多的AI模型，并且提供了丰富的API接口，忙活了半天的Node接口没成功，但是忙了一分钟的python接口却一下搞定了！本想给大家做一个网页版的在线模型使用功能，但是Node太矫情或是我太菜了，可惜可惜",
         },
+        {
+          content: "使用NodeAPI获取Replicate模型数据",
+          timestamp: "2023-09-14",
+          shortContent: "坚持不懈的我",
+          contents:
+            "原本写完上面那一条数据就准备睡觉的我实在睡不着，就起来继续高nodeAPI，结果终于成功了，现在已经可以正常访问模型了，后续马上就给大家安排上在线体验版本，预计放在AI模块！",
+        },
       ],
       // 日记drow控制数据
       drawer: false,
