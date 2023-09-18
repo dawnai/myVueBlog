@@ -1,5 +1,5 @@
 module.exports = {
-  transpileDependencies: true,
+  transpileDependencies: ['element-ui'],
   devServer: {
     proxy: {
       '/api': {
