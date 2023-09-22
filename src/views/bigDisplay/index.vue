@@ -46,7 +46,7 @@
       <el-col :span="7">
         <img :src="bigDisplayContent.midImgUrl" alt="" style="width: 100%; height: 75%" />
         <h5 style="margin: 10px 0px; color: rgb(59, 59, 59)">{{ bigDisplayContent.midType }}</h5>
-        <a href="https://www.gdmoa.org/" style="color: black; text-decoration: none">
+        <a :href="bigDisplayContent.web" style="color: black; text-decoration: none">
           <h3 style="display: flex;">
             {{ bigDisplayContent.midHead }}
             <svg t="1692949855247" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"

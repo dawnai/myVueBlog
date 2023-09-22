@@ -204,8 +204,8 @@ export default {
       // 大图展示数据
       bigDisplayContent: {
         topImgUrl: require("@/assets/imgs/河边露营.png"), //传递图像要使用require，直接传递字符串 行不通
-        leftImgUrl: require("@/assets/imgs/年轮.jpg"),
-        midImgUrl: require("@/assets/imgs/瑞士.jpg"),
+        leftImgUrl: require("@/assets/imgs/瑞士.jpg"),
+        midImgUrl: require("@/assets/imgs/年轮.jpg"),
         rightImgUrl: require("@/assets/imgs/五所.jpg"),
         oneText: "为什么想着写日记？",
         twoText: "Why pen a diary's prose?",
@@ -218,15 +218,16 @@ export default {
         sevenText:
           "The butterfly counts not months but moments, and has time enough",
         leftType: "CAMERA",
-        leftHead: "艺术品：七十",
-        leftAuthor: "by 广州美术馆",
+        leftHead: "瑞士风景 嘎嘎棒",
+        leftAuthor: "by  maud",
         midType: "CAMERA",
-        midHead: "瑞士风景 嘎嘎棒！",
-        midAuthor: "by  maud",
+        midHead: "艺术品：七十",
+        midAuthor: "by 广州美术馆",
         rightType: "CAMERA",
         rightHead: "夕阳也下班",
         rightAuthor: "by Dawn",
         color: "#04333e",
+        web:"https://www.gdmoa.org/"
       },
       // 日记数据
       reverse: false, //用于控制日记的展示顺序

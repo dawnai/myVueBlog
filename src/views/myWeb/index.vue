@@ -5,7 +5,7 @@
             <div style="background-color: #f2f2f2; padding: 50px 50px">
                 <el-row>
                     <el-col :span="12">
-                        <h1 style="font-size: 3vw; margin: 10px 0px; color: #22c358">
+                        <h1 style="font-size: 3vw; margin: 10px 0px; color: #002fa7">
                             我的网站使用哪些技术
                         </h1>
                         <h1 style="font-size: 2vw">Which graceful technologies adorn my website?</h1>
@@ -43,18 +43,95 @@
             </div>
         </div>
         <!-- 展示各个资源网站 -->
-        <div  style="margin-top: 40px;">
-            <el-card></el-card>
+        <div style="margin-top: 40px; background-color: #f2f2f2;">
+            <el-row style="padding: 30px;" :gutter="20">
+                <el-col :span="8">
+                    <a href="https://lottiefiles.com/" style="text-decoration: none;">
+                        <el-card>
+                            <h1 style="color: rgb(0, 220, 177);">LottieFiles</h1>
+                            <br>
+                            <div>
+                                <img src="@/assets/imgs/lottiefiles.png" alt="" style="width: 100%;">
+                            </div>
+                            <div style="margin-top: 20px;">
+                                <p class="myWebIntrooduce">LottieFiles 是一个免费的动画库，里面有很多优质的动画，我的网站大部分的小动画均来自这里</p>
+                            </div>
+                        </el-card>
+                    </a>
+                </el-col>
+                <el-col :span="8">
+                    <a href="https://2019.makemepulse.com/" style="text-decoration: none;">
+                        <el-card>
+                            <h1 style="color: #767d96;">NOMADIC TRIBE</h1>
+                            <br>
+                            <div>
+                                <img src="@/assets/imgs/游牧部落.png" alt="" style="width: 100%;">
+                            </div>
+                            <div style="margin-top: 20px;">
+                                <p class="myWebIntrooduce">NOMADIC TRIBE（游牧部落） 这是一个做的很好的web互动网站，在这个网站上可以进行一场特殊的旅行</p>
+                            </div>
+                        </el-card>
+                    </a>
+                </el-col>
+                <el-col :span="8">
+                    <a href="https://echarts.apache.org/zh/index.html" style="text-decoration: none;">
+                        <el-card>
+                            <h1 style="color: #f72c5b;">Apache ECharts</h1>
+                            <br>
+                            <div>
+                                <img src="@/assets/imgs/echarts.png" alt="" style="width: 100%;">
+                            </div>
+                            <div style="margin-top: 20px;">
+                                <p class="myWebIntrooduce">Apache ECharts 是一个做图的网站，你可以通过echarts制作好看的科研绘图</p>
+                            </div>
+                        </el-card>
+                    </a>
+                </el-col>
+            </el-row>
         </div>
+        <bigDisplay :bigDisplayContent="bigDisplayContent"></bigDisplay>
     </div>
 </template>
 
 <script>
 import weblottie from './weblottie'
+import bigDisplay from "@/views/bigDisplay";
 export default {
     name: 'myWeb',
     components: {
-        weblottie
+        weblottie,
+        bigDisplay
+    },
+    data() {
+        return {
+            bigDisplayContent: {
+                topImgUrl: require("@/views/myWeb/imgs/new.png"), //传递图像要使用require，直接传递字符串 行不通
+                leftImgUrl: require("@/views/myWeb/imgs/冲1.jpg"),
+                midImgUrl: require("@/views/myWeb/imgs/冲2.jpg"),
+                rightImgUrl: require("@/views/myWeb/imgs/冲3.jpg"),
+                oneText: "我为什么喜欢前端呢？",
+                twoText: "Why do I like writing web code?",
+                threeText: "其实好像自己也没有一个准确的答案，只是觉得这样很酷哎",
+                fourText:
+                    "也许这个网站也没有什么人会看，大部分的浏览者也都是我的朋友家人",
+                fiveText:
+                    "可我还是会要求自己不断开发下去，一直保持对网站的更新和维护",
+                sixText: "可我能笃定一点，未来的她一定会来看，然后因为配色和排版嘲讽我几句",
+                sevenText:
+                    "If you shed tears when you miss the sun,you also miss the stars ",
+                leftType: "COMIC",
+                leftHead: "乙姬潜水士:口岸",
+                leftAuthor: "by 袁藤冲人",
+                midType: "COMIC",
+                midHead: "乙姬潜水士",
+                midAuthor: "by  袁藤冲人",
+                rightType: "COMIC",
+                rightHead: "乙姬潜水士",
+                rightAuthor: "by 袁藤冲人",
+                color: "#002fa7",
+                web:"https://www.youtube.com/watch?v=h5-YQoIrxZ4"
+            },
+        }
     }
 
 }
@@ -71,4 +148,5 @@ export default {
     font-family: "阿里妈妈灵动体 VF Thin";
     color: #202020;
     font-size: small;
-}</style>
+}
+</style>
