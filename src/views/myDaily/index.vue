@@ -204,7 +204,7 @@ export default {
       // 大图展示数据
       bigDisplayContent: {
         topImgUrl: require("@/assets/imgs/河边露营.png"), //传递图像要使用require，直接传递字符串 行不通
-        leftImgUrl: require("@/assets/imgs/瑞士.jpg"),
+        leftImgUrl: require("@/assets/imgs/杨蝶拍摄.jpg"),
         midImgUrl: require("@/assets/imgs/年轮.jpg"),
         rightImgUrl: require("@/assets/imgs/五所.jpg"),
         oneText: "为什么想着写日记？",
@@ -218,8 +218,8 @@ export default {
         sevenText:
           "The butterfly counts not months but moments, and has time enough",
         leftType: "CAMERA",
-        leftHead: "瑞士风景 嘎嘎棒",
-        leftAuthor: "by  maud",
+        leftHead: "福建的海边",
+        leftAuthor: "by  Butterfly",
         midType: "CAMERA",
         midHead: "艺术品：七十",
         midAuthor: "by 广州美术馆",
