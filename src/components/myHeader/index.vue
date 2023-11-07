@@ -2,7 +2,7 @@
     <div>
         <el-header>
             <div class="myHeader">
-                <el-card>
+                <el-card shadow="hover">
                     <el-row style="display: flex">
                         <el-col :span="14" style="display: flex; align-items: center">
                             <el-button class="myLogo" @click="toHome"></el-button>
@@ -144,6 +144,7 @@ export default {
 
 .headButton:hover {
     background-color: #77e79c;
+    
 }
 
 .myLogo {

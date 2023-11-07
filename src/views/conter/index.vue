@@ -1,19 +1,20 @@
 <template>
   <div>
     <div class="myIntroduce" style="margin-top: 50px; margin-bottom: 20px">
-      <el-row>
+      <el-row type="flex" align="middle">
         <el-col :span="12">
           <mylottie></mylottie>
         </el-col>
         <el-col :span="12">
-          <el-card class="myWelcome">
-            <h1 style="font-size: calc(520% + 10px)">Welcom to</h1>
-            <h1 style="font-size: calc(520% + 10px)">DAWN's</h1>
-            <h1 style="font-size: calc(520% + 10px)">Home</h1>
+          <div class="myWelcome" style="text-align: center;">
+            <h1 style="font-size:9vh;">Welcome to Dawn's personal website</h1>
+            <br>
+            <h1 style="font-size: 8vh">May everyday bring you happiness</h1>
+
             <h2>--------------</h2>
             <h3>嗨，你好呀</h3>
             <h3 style="display: inline-block">欢迎来到我的个人网站！</h3>
-          </el-card>
+          </div>
         </el-col>
       </el-row>
     </div>
@@ -453,7 +454,6 @@ h4 {
   /* 适用于WebKit内核的浏览器（Chrome、Safari等） */
   color: transparent;
   /* 让文字透明 */
-  border-radius: 20px;
 }
 
 .myWebIntrooduce {

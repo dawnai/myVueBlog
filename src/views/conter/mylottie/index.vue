@@ -1,6 +1,5 @@
 <template>
     <div style="height: 70vh; width: 100%;" id="lottie-animation">
-        
     </div>
 </template>
 
