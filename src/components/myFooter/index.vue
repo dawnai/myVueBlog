@@ -71,6 +71,12 @@
                                     <h4>please remember to let me know</h4>
                                 </el-col>
                             </el-row>
+                            <br>
+                            <div style="font-size: small;font-weight: 600;">
+                                <span>备案号：</span>
+                            <a href="https://beian.miit.gov.cn/" target="_blank" style="text-decoration: none;color: white;">蜀ICP备2023032384号-1</a>
+                            </div>
+
                         </el-col>
                         <!-- 底部右边 -->
                         <el-col :span="12">
@@ -118,7 +124,6 @@
                             </el-row>
                         </el-col>
                     </el-row>
-
                 </div>
             </el-footer>
     </div>
