@@ -161,4 +161,7 @@ export default{
     padding-right: 100px;
     padding-bottom: 20px;
 }
+h4{
+    margin-top: 10px;
+}
 </style>
