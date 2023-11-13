@@ -46,7 +46,7 @@
                 </el-card>
             </el-col>
             <el-col :span="8">
-                <el-card shadow="hover">
+                <el-card shadow="hover" @click="toSdxl">
                     <div class="cardstyle">
                         <img src="./imgs/sdxl_cover.jpg" alt="" style="width: 100%;">
                         <h2 style="color: #002fa7">
@@ -54,6 +54,7 @@
                         </h2>
                         <p>A text-to-image generative AI model that creates beautiful images</p>
                         <p>图像生成类模型，生成各种奇怪场景</p>
+                        <el-button @click="toSdxl">star</el-button>
 
                     </div>
 
@@ -119,7 +120,10 @@ export default {
         myAiLottie
     },
     methods: {
-
+        toSdxl(){
+            console.log('good')
+            this.$router.push("/Sdxl")
+        }
     }
 }
 </script>

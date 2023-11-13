@@ -8,7 +8,7 @@ import home from '@/views/conter'
 import myDaily from '@/views/myDaily'
 import myPaper from '@/views/myPaper'
 import myWeb from '@/views/myWeb'
-
+import mySdxl from '@/views/AI/SDXL'
 
 export default new VueRouter({
     routes: [
@@ -27,8 +27,9 @@ export default new VueRouter({
         {
             path: "/Web", component: myWeb
         },
-
-
+        {
+            path: "/Sdxl", component: mySdxl
+        },
         // 路由重定向
         {
             path: '*',
