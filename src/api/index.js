@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const apiClient = axios.create({
-  baseURL: 'http://175.178.247.122:3000', // 替换成你的 API 地址
+  baseURL: 'https://175.178.247.122:3000', // 替换成你的 API 地址
   timeout: 500000 // 设置请求超时时间
 });
 
